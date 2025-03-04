@@ -465,7 +465,7 @@ if __name__ == "__main__":
 
 
 
-        logging.info(f"生成的邮箱账号: {account}")
+        logging.info(f"生成的邮箱账号: {account}|{password}")
 
         logging.info("正在初始化邮箱验证模块...")
         email_handler = EmailVerificationHandler(account)
